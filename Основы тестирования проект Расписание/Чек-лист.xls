@@ -1,0 +1,582 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta name="author" content="dev.sitechco.ru" />
+    </head>
+<table  border="1">
+    <tr>
+        <td colspan="4">Название (Аббр.): Личные события (LS)</td>
+    </tr>
+    <tr>
+        <td colspan="4">Описание: </td>
+    </tr>
+            <tr>
+        <td colspan="4">Статус: Не согласован </td>
+    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Название события (Валидные проверки)</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            1        </td>
+        <td>
+            Средний        </td>
+        <td>Ввести название личного события на латинице</td>
+                <td>Название принято</td>
+                    </tr>
+        <tr>
+        <td>
+            2        </td>
+        <td>
+            Средний        </td>
+        <td>Ввести название личного события на кириллице</td>
+                <td>Название принято</td>
+                    </tr>
+        <tr>
+        <td>
+            3        </td>
+        <td>
+            Средний        </td>
+        <td>Ввести название личного события с цифрами</td>
+                <td>Название принято</td>
+                    </tr>
+        <tr>
+        <td>
+            4        </td>
+        <td>
+            Средний        </td>
+        <td>Ввести название личного события с пробелами</td>
+                <td>Название принято</td>
+                    </tr>
+        <tr>
+        <td>
+            5        </td>
+        <td>
+            Средний        </td>
+        <td>Ввести название состоящее из трех символов</td>
+                <td>Название принято</td>
+                    </tr>
+        <tr>
+        <td>
+            6        </td>
+        <td>
+            Средний        </td>
+        <td>Ввести название из 19 символов</td>
+                <td>Название принято</td>
+                    </tr>
+        <tr>
+        <td>
+            7        </td>
+        <td>
+            Средний        </td>
+        <td>Ввести название из 40 символов</td>
+                <td>Название принято</td>
+                    </tr>
+        <tr>
+        <td>
+            8        </td>
+        <td>
+            Средний        </td>
+        <td>Ввести название с спецсимволами</td>
+                <td>Название принято</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Название события (Невалидные проверки)</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            9        </td>
+        <td>
+            Средний        </td>
+        <td>Ввести только пробелы</td>
+                <td>Поле "Название" подсвечивается красным, сохранить событие невозможно</td>
+                    </tr>
+        <tr>
+        <td>
+            10        </td>
+        <td>
+            Средний        </td>
+        <td>Оставить поле пустым</td>
+                <td>Поле "Название" подсвечивается красным, сохранить событие невозможно</td>
+                    </tr>
+        <tr>
+        <td>
+            11        </td>
+        <td>
+            Средний        </td>
+        <td>Ввести название из 41 символов</td>
+                <td>Поле "Название" подсвечивается красным, сохранить событие невозможно</td>
+                    </tr>
+        <tr>
+        <td>
+            12        </td>
+        <td>
+            Средний        </td>
+        <td>Ввести название из 60 символов</td>
+                <td>Поле "Название" подсвечивается красным, сохранить событие невозможно</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Дата (Валидные проверки)</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            13        </td>
+        <td>
+            Средний        </td>
+        <td>Сегодняшняя дата</td>
+                <td>Дата принята</td>
+                    </tr>
+        <tr>
+        <td>
+            14        </td>
+        <td>
+            Средний        </td>
+        <td>Первый день прошлого месяца</td>
+                <td>Дата принята</td>
+                    </tr>
+        <tr>
+        <td>
+            15        </td>
+        <td>
+            Средний        </td>
+        <td>Последний день прошлого месяца</td>
+                <td>Дата принята</td>
+                    </tr>
+        <tr>
+        <td>
+            16        </td>
+        <td>
+            Средний        </td>
+        <td>Дата в будущем периоде ( через две недели с сегодняшнего дня)</td>
+                <td>Дата принята</td>
+                    </tr>
+        <tr>
+        <td>
+            17        </td>
+        <td>
+            Средний        </td>
+        <td>Дата через три месяца с сегодняшнего дня</td>
+                <td>Дата принята</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Дата (Невалидные проверки)</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            18        </td>
+        <td>
+            Средний        </td>
+        <td>Дата год назад с сегодняшнего дня</td>
+                <td>Невозможно выбрать дату</td>
+                    </tr>
+        <tr>
+        <td>
+            19        </td>
+        <td>
+            Средний        </td>
+        <td>Дата через год с сегодняшнего дня</td>
+                <td>Невозможно выбрать дату</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Время (Валидные проверки)</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            20        </td>
+        <td>
+            Средний        </td>
+        <td>Личное событие длится 25 минут</td>
+                <td>Время принято</td>
+                    </tr>
+        <tr>
+        <td>
+            21        </td>
+        <td>
+            Средний        </td>
+        <td>Личное событие длится 2,5 часа</td>
+                <td>Время принято</td>
+                    </tr>
+        <tr>
+        <td>
+            22        </td>
+        <td>
+            Средний        </td>
+        <td>Личное событие длится 9 часов 40 минут</td>
+                <td>Время принято</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Время (Невалидные проверки)</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            23        </td>
+        <td>
+            Средний        </td>
+        <td>Личное событие длится 12 часов</td>
+                <td>Невозможно выбрать данное время</td>
+                    </tr>
+        <tr>
+        <td>
+            24        </td>
+        <td>
+            Средний        </td>
+        <td>Личное событие длится больше 24 часов</td>
+                <td>Невозможно выбрать данное время</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Описание (Валидные проверки)</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            25        </td>
+        <td>
+            Средний        </td>
+        <td>Описание на 500 символов</td>
+                <td>Описание принято</td>
+                    </tr>
+        <tr>
+        <td>
+            26        </td>
+        <td>
+            Средний        </td>
+        <td>Оставить поле "Описание" пустым</td>
+                <td>Описание принято</td>
+                    </tr>
+        <tr>
+        <td>
+            27        </td>
+        <td>
+            Средний        </td>
+        <td>Заполнить поле "Описание" одним символом</td>
+                <td>Описание принято</td>
+                    </tr>
+        <tr>
+        <td>
+            28        </td>
+        <td>
+            Средний        </td>
+        <td>Заполнить поле "Описание" 250 символами</td>
+                <td>Описание принято</td>
+                    </tr>
+        <tr>
+        <td>
+            29        </td>
+        <td>
+            Средний        </td>
+        <td>Заполнить поле "Описание" на кириллице</td>
+                <td>Описание принято</td>
+                    </tr>
+        <tr>
+        <td>
+            30        </td>
+        <td>
+            Средний        </td>
+        <td>Заполнить поле "Описание" на латинице</td>
+                <td>Описание принято</td>
+                    </tr>
+        <tr>
+        <td>
+            31        </td>
+        <td>
+            Средний        </td>
+        <td>Заполнить поле "Описание" с пробелами</td>
+                <td>Описание принято</td>
+                    </tr>
+        <tr>
+        <td>
+            32        </td>
+        <td>
+            Средний        </td>
+        <td>Заполнить поле "Описание" числами</td>
+                <td>Описание принято</td>
+                    </tr>
+        <tr>
+        <td>
+            33        </td>
+        <td>
+            Средний        </td>
+        <td>Заполнить поле "Описание" спецсимволами</td>
+                <td>Описание принято</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Описание (Невалидные проверки)</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            34        </td>
+        <td>
+            Средний        </td>
+        <td>Заполнить поле "Описание" 501 символом</td>
+                <td>После 500 символов невозможно напечатать дополнительные символы</td>
+                    </tr>
+        <tr>
+        <td>
+            35        </td>
+        <td>
+            Средний        </td>
+        <td>Заполнить поле "Описание" 700 символами</td>
+                <td>После 500 символов невозможно напечатать дополнительные символы</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Цвет события (Валидные проверки)</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            36        </td>
+        <td>
+            Средний        </td>
+        <td>Выбран серый цвет</td>
+                <td>Цвет события выбран</td>
+                    </tr>
+        <tr>
+        <td>
+            37        </td>
+        <td>
+            Средний        </td>
+        <td>Выбран желтый цвет</td>
+                <td>Цвет события выбран</td>
+                    </tr>
+        <tr>
+        <td>
+            38        </td>
+        <td>
+            Средний        </td>
+        <td>Выбран зеленый цвет</td>
+                <td>Цвет события выбран</td>
+                    </tr>
+        <tr>
+        <td>
+            39        </td>
+        <td>
+            Средний        </td>
+        <td>Выбран фиолетовый цвет</td>
+                <td>Цвет события выбран</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Цвет события (Невалидные проверки)</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            40        </td>
+        <td>
+            Средний        </td>
+        <td>Не выбран цвет</td>
+                <td>Невозможно сохранить личное событие, не выбрав "Цвет события"</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Кнопка "Сохранить"</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            41        </td>
+        <td>
+            Средний        </td>
+        <td>Кнопка "Сохранить" работает</td>
+                <td>При нажатии на кнопку, личное событие сохраняется в расписании</td>
+                    </tr>
+            <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+                <td></td>
+                    </tr>
+            <tr>
+        <td colspan="4" style="background-color: #ced1d1;">Крестик (Валидные проверки)</td>
+    </tr>
+    <tr>
+        <td colspan="4" style="background-color: #ced1d1;"></td>
+    </tr>
+    <tr>
+        <td>№</td>
+        <td>Приоритет</td>
+        <td>Проверка</td>
+                <td>Результат</td>
+                    </tr>
+        <tr>
+        <td>
+            42        </td>
+        <td>
+            Средний        </td>
+        <td>Крестик работает</td>
+                <td>При нажатии на крестик, личное событие не сохраняется, возврат к  расписанию</td>
+                    </tr>
+            </table>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript"> 
+(function (d, w, c) { (w[c] = w[c] || []).push(function() {
+	try { w.yaCounter43980704 = new Ya.Metrika({
+			id:43980704,
+			clickmap:true,
+			trackLinks:true,
+			accurateTrackBounce:true
+		}); }
+	catch(e) { } });
+	var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); };
+	s.type = "text/javascript"; s.async = true;
+	s.src = "https://mc.yandex.ru/metrika/watch.js";
+	if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); }
+	else { f(); } })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/43980704" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
